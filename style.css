@@ -650,7 +650,7 @@ body {
     }
 
     .slider-content h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .slider-tag,
@@ -660,7 +660,7 @@ body {
 
     .slider-content button {
         margin-top: 18px;
-        padding: 10px 22px;
+        padding: 10px 20px;
         font-size: 15px;
         border-radius: 4px;
     }
@@ -691,14 +691,15 @@ body {
 
     .brands-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        flex-wrap: nowrap;
-        gap: 18px;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
     .brand-box {
         min-width: 60px;
+        text-align: center;
     }
 
     .brand-box img {
